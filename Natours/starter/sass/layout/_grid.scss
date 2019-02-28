@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto;
 
     //Select every Row except for the last one
@@ -13,7 +12,6 @@
     //Select all elements with attributes that start with 
     //col
     [class^="col-"]{
-        background-color: orange;
         float: left;
         
         &:not(:last-child) {
